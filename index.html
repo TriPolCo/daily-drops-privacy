@@ -40,7 +40,6 @@
         Helvetica,
         Arial,
         sans-serif;
-
       background: #f6f8f7;
       color: #1f2933;
       line-height: 1.7;
@@ -55,14 +54,13 @@
       text-decoration: underline;
     }
 
-    /* =========================================
+    /* =========================
        HEADER
-    ========================================= */
+    ========================= */
 
     .header {
       background: #ffffff;
       border-bottom: 1px solid #e5e7eb;
-
       position: sticky;
       top: 0;
       z-index: 100;
@@ -71,13 +69,11 @@
     .header-container {
       max-width: 1100px;
       margin: 0 auto;
-
       padding: 18px 24px;
 
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       gap: 20px;
     }
 
@@ -90,7 +86,6 @@
     .brand-logo {
       width: 44px;
       height: 44px;
-
       border-radius: 12px;
 
       background: #16803c;
@@ -100,7 +95,6 @@
       justify-content: center;
 
       color: #ffffff;
-
       font-size: 22px;
       font-weight: 800;
 
@@ -110,20 +104,18 @@
     .brand-name {
       font-size: 20px;
       font-weight: 800;
-
       color: #111827;
     }
 
     .brand-subtitle {
       font-size: 12px;
       color: #6b7280;
-
       margin-top: -2px;
     }
 
-    /* =========================================
+    /* =========================
        HERO
-    ========================================= */
+    ========================= */
 
     .hero {
       background: linear-gradient(
@@ -162,7 +154,6 @@
 
     .hero h1 {
       font-size: 44px;
-
       line-height: 1.15;
 
       color: #111827;
@@ -190,9 +181,9 @@
       color: #6b7280 !important;
     }
 
-    /* =========================================
+    /* =========================
        MAIN LAYOUT
-    ========================================= */
+    ========================= */
 
     .page-container {
       max-width: 1100px;
@@ -208,9 +199,9 @@
       gap: 45px;
     }
 
-    /* =========================================
+    /* =========================
        SIDEBAR
-    ========================================= */
+    ========================= */
 
     .sidebar {
       position: sticky;
@@ -263,9 +254,9 @@
       text-decoration: none;
     }
 
-    /* =========================================
+    /* =========================
        CONTENT
-    ========================================= */
+    ========================= */
 
     .content {
       background: #ffffff;
@@ -334,6 +325,20 @@
       font-size: 15px;
     }
 
+    .content ol {
+      margin: 12px 0 18px 22px;
+    }
+
+    .content ol li {
+      color: #4b5563;
+
+      margin-bottom: 9px;
+
+      font-size: 15px;
+
+      padding-left: 4px;
+    }
+
     .highlight {
       background: #f0fdf4;
 
@@ -372,9 +377,35 @@
       color: #111827;
     }
 
-    /* =========================================
+    .email-button {
+      display: inline-block;
+
+      margin-top: 8px;
+
+      padding: 10px 18px;
+
+      border-radius: 8px;
+
+      background: #16803c;
+
+      color: #ffffff;
+
+      font-weight: 700;
+
+      text-decoration: none;
+    }
+
+    .email-button:hover {
+      background: #126b32;
+
+      color: #ffffff;
+
+      text-decoration: none;
+    }
+
+    /* =========================
        FOOTER
-    ========================================= */
+    ========================= */
 
     .footer {
       background: #111827;
@@ -412,9 +443,9 @@
       color: #86efac;
     }
 
-    /* =========================================
+    /* =========================
        MOBILE
-    ========================================= */
+    ========================= */
 
     @media (max-width: 850px) {
 
@@ -489,9 +520,9 @@
 
 <body>
 
-  <!-- =========================================
+  <!-- =========================
        HEADER
-  ========================================== -->
+  ========================== -->
 
   <header class="header">
 
@@ -522,9 +553,9 @@
   </header>
 
 
-  <!-- =========================================
+  <!-- =========================
        HERO
-  ========================================== -->
+  ========================== -->
 
   <section class="hero">
 
@@ -554,16 +585,16 @@
   </section>
 
 
-  <!-- =========================================
+  <!-- =========================
        MAIN CONTENT
-  ========================================== -->
+  ========================== -->
 
   <main class="page-container">
 
 
-    <!-- =======================================
+    <!-- =========================
          SIDEBAR
-    ======================================== -->
+    ========================== -->
 
     <aside class="sidebar">
 
@@ -634,16 +665,16 @@
     </aside>
 
 
-    <!-- =======================================
-         PRIVACY POLICY
-    ======================================== -->
+    <!-- =========================
+         POLICY CONTENT
+    ========================== -->
 
     <article class="content">
 
 
-      <!-- =====================================
+      <!-- =========================
            1. INTRODUCTION
-      ====================================== -->
+      ========================== -->
 
       <section id="introduction">
 
@@ -676,9 +707,9 @@
       </section>
 
 
-      <!-- =====================================
-           2. INFORMATION WE COLLECT
-      ====================================== -->
+      <!-- =========================
+           2. INFORMATION
+      ========================== -->
 
       <section id="information">
 
@@ -810,9 +841,9 @@
       </section>
 
 
-      <!-- =====================================
-           3. HOW WE USE INFORMATION
-      ====================================== -->
+      <!-- =========================
+           3. USAGE
+      ========================== -->
 
       <section id="usage">
 
@@ -872,9 +903,9 @@
       </section>
 
 
-      <!-- =====================================
-           4. INFORMATION SHARING
-      ====================================== -->
+      <!-- =========================
+           4. SHARING
+      ========================== -->
 
       <section id="sharing">
 
@@ -935,9 +966,9 @@
       </section>
 
 
-      <!-- =====================================
+      <!-- =========================
            5. PAYMENTS
-      ====================================== -->
+      ========================== -->
 
       <section id="payments">
 
@@ -966,9 +997,9 @@
       </section>
 
 
-      <!-- =====================================
+      <!-- =========================
            6. LOCATION
-      ====================================== -->
+      ========================== -->
 
       <section id="location">
 
@@ -996,9 +1027,9 @@
       </section>
 
 
-      <!-- =====================================
+      <!-- =========================
            7. NOTIFICATIONS
-      ====================================== -->
+      ========================== -->
 
       <section id="notifications">
 
@@ -1020,9 +1051,9 @@
       </section>
 
 
-      <!-- =====================================
+      <!-- =========================
            8. SECURITY
-      ====================================== -->
+      ========================== -->
 
       <section id="security">
 
@@ -1046,9 +1077,9 @@
       </section>
 
 
-      <!-- =====================================
-           9. DATA RETENTION
-      ====================================== -->
+      <!-- =========================
+           9. RETENTION
+      ========================== -->
 
       <section id="retention">
 
@@ -1073,9 +1104,9 @@
       </section>
 
 
-      <!-- =====================================
+      <!-- =========================
            10. ACCOUNT DELETION
-      ====================================== -->
+      ========================== -->
 
       <section id="deletion">
 
@@ -1084,50 +1115,121 @@
         </h2>
 
         <p>
-          You may request deletion of your Daily Drops
-          account and associated personal information.
+          Daily Drops provides users with a way to request
+          deletion of their account and associated personal
+          information.
+        </p>
+
+        <div class="highlight">
+
+          <p>
+            <strong>
+              You can request deletion of your Daily Drops
+              account by sending an email to:
+            </strong>
+          </p>
+
+          <p style="margin-top: 10px;">
+
+            <a
+              href="mailto:kanhnupolai79@gmail.com?subject=Daily%20Drops%20Account%20Deletion%20Request"
+            >
+              kanhnupolai79@gmail.com
+            </a>
+
+          </p>
+
+        </div>
+
+
+        <h3>
+          How to Request Account Deletion
+        </h3>
+
+        <ol>
+
+          <li>
+            Send an email to
+            <strong>
+              kanhnupolai79@gmail.com
+            </strong>.
+          </li>
+
+          <li>
+            Use the subject:
+            <strong>
+              Daily Drops Account Deletion Request
+            </strong>.
+          </li>
+
+          <li>
+            Include the phone number or email address
+            associated with your Daily Drops account.
+          </li>
+
+          <li>
+            We will review and process the account deletion
+            request.
+          </li>
+
+        </ol>
+
+
+        <h3>
+          What Happens After a Deletion Request
+        </h3>
+
+        <p>
+          Once a valid deletion request is received and
+          verified, we will delete or anonymize personal
+          information associated with the account where
+          reasonably possible.
         </p>
 
         <p>
-          To request account or data deletion, contact us
-          using the email address provided below.
+          Information that is necessary to fulfill legal,
+          accounting, security, fraud prevention, dispute
+          resolution, or other legitimate obligations may
+          be retained for the period required or permitted
+          by applicable law.
         </p>
+
+
+        <h3>
+          Account Deletion Contact
+        </h3>
 
         <div class="contact-box">
 
           <p>
             <strong>
-              Account & Data Deletion Request
+              Daily Drops
             </strong>
           </p>
 
           <p>
-            Email:
-            <a href="mailto:kanhnupolai79@gmail.com">
-              kanhnupolai79@gmail.com
-            </a>
+            Account deletion requests:
           </p>
 
           <p>
-            Please include the email address or phone number
-            associated with your Daily Drops account so that
-            we can identify and process your request.
+
+            <a
+              class="email-button"
+              href="mailto:kanhnupolai79@gmail.com?subject=Daily%20Drops%20Account%20Deletion%20Request"
+            >
+              Email Us for Account Deletion
+            </a>
+
           </p>
 
         </div>
 
-        <p>
-          Certain information may need to be retained where
-          required by law, for legitimate business purposes,
-          fraud prevention, security, or resolution of disputes.
-        </p>
-
       </section>
 
 
-      <!-- =====================================
+      <!-- =========================
            11. CHILDREN
-      ====================================== -->
+      ========================== -->
 
       <section id="children">
 
@@ -1151,9 +1253,9 @@
       </section>
 
 
-      <!-- =====================================
-           12. THIRD PARTY SERVICES
-      ====================================== -->
+      <!-- =========================
+           12. THIRD PARTY
+      ========================== -->
 
       <section id="third-party">
 
@@ -1181,9 +1283,9 @@
       </section>
 
 
-      <!-- =====================================
-           13. POLICY CHANGES
-      ====================================== -->
+      <!-- =========================
+           13. CHANGES
+      ========================== -->
 
       <section id="changes">
 
@@ -1212,9 +1314,9 @@
       </section>
 
 
-      <!-- =====================================
+      <!-- =========================
            14. CONTACT
-      ====================================== -->
+      ========================== -->
 
       <section id="contact">
 
@@ -1224,8 +1326,9 @@
 
         <p>
           If you have questions, concerns, or requests
-          regarding this Privacy Policy or your personal
-          information, please contact us.
+          regarding this Privacy Policy, your account,
+          account deletion, or your personal information,
+          please contact us.
         </p>
 
         <div class="contact-box">
@@ -1238,13 +1341,20 @@
 
           <p>
             Privacy and Support Email:
-            <a href="mailto:kanhnupolai79@gmail.com">
+          </p>
+
+          <p>
+            <a
+              class="email-button"
+              href="mailto:kanhnupolai79@gmail.com"
+            >
               kanhnupolai79@gmail.com
             </a>
           </p>
 
-          <p>
-            For privacy-related requests, please use the
+          <p style="margin-top: 18px;">
+            For privacy-related requests, account deletion
+            requests, or other concerns, please use the
             email address above and include sufficient
             information for us to identify your request.
           </p>
@@ -1259,9 +1369,9 @@
   </main>
 
 
-  <!-- =========================================
+  <!-- =========================
        FOOTER
-  ========================================== -->
+  ========================== -->
 
   <footer class="footer">
 
